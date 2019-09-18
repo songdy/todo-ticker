@@ -1,0 +1,9 @@
+<view class="main">
+    <view>列表</view>
+    <view class="red" wx:for="{{countdownListStr}}" wx:key="index">{{item}}</view>
+    <navigator open-type="navigateBack" url="/pages/list/index">
+        <button class="btn" type="primary" size="mini">
+            返回上个页面
+        </button>
+    </navigator>
+</view>

@@ -1,0 +1,12 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/list/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "todo-ticker",
+        "navigationBarTextStyle": "black"
+    }
+}

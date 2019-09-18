@@ -1,0 +1,9 @@
+<view class="main">
+    <view>首页</view>
+    <view class="red">{{countdownStr}}</view>
+    <navigator url="/pages/list/index">
+        <button class="btn" type="primary" size="mini">
+            跳转下个页面
+        </button>
+    </navigator>
+</view>
